@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="tr" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOLU.ai | Müşteri Getiren AI CRM</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.4/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(14px);
+    }
+    .gradient-border {
+      position: relative;
+    }
+    .gradient-border::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: 1rem;
+      background: linear-gradient(135deg, #8B5CF6, #EC4899, #3B82F6, #06B6D4);
+      z-index: -1;
+      opacity: 0.8;
+    }
+    .grid-bg {
+      background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.1) 1px, transparent 0);
+      background-size: 36px 36px;
+    }
+  </style>
+</head>
+<body class="min-h-full bg-slate-900 text-slate-50 font-sans">
+  <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(139,92,246,0.18)_0,_transparent_35%),radial-gradient(circle_at_30%_20%,_rgba(236,72,153,0.15)_0,_transparent_30%),radial-gradient(circle_at_80%_10%,_rgba(6,182,212,0.14)_0,_transparent_25%)] pointer-events-none"></div>
+  <header class="relative z-10 max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 flex items-center justify-center font-bold text-lg">d</div>
+      <div class="leading-tight">
+        <p class="text-sm uppercase tracking-[0.2em] text-cyan-300">DOLU.ai</p>
+        <p class="text-slate-200 text-sm">Müşteri Getiren AI CRM</p>
+      </div>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm text-slate-200">
+      <a href="#features" class="hover:text-white">Özellikler</a>
+      <a href="#sectors" class="hover:text-white">Sektörler</a>
+      <a href="#pricing" class="hover:text-white">Fiyatlar</a>
+      <a href="#contact" class="hover:text-white">Demo Talep</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <button class="px-4 py-2 text-sm font-semibold text-slate-50/80 hover:text-white">Giriş</button>
+      <button class="px-4 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 shadow-lg shadow-purple-900/40">Ücretsiz Dene</button>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+    <section class="max-w-6xl mx-auto px-4 grid gap-10 md:grid-cols-2 items-center pb-20 pt-4">
+      <div class="space-y-6">
+        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/70 text-xs tracking-wide uppercase border border-white/5">GPT-4o + Claude entegre • TR/EN/AR</span>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight text-white">Müşteri Bulan <span class="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-300 bg-clip-text text-transparent">AI CRM</span> ile tüm kanallar tek ekranda.</h1>
+        <p class="text-lg text-slate-200">DOLU.ai, WhatsApp, Instagram, Facebook, Telegram, e-posta ve web sohbetini tek gelen kutusunda toplar; AI resepsiyonist 7/24 yanıt verir, benzersiz <strong>"Müşteri Bulma" motoru</strong> ile yeni lead'ler getirir.</p>
+        <div class="flex flex-wrap gap-3">
+          <button class="px-5 py-3 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 font-semibold shadow-lg shadow-purple-900/40">14 Gün Ücretsiz Başlat</button>
+          <button class="px-5 py-3 rounded-full border border-white/10 text-slate-100 hover:border-white/30">Demoyu İzle</button>
+        </div>
+        <div class="flex flex-wrap gap-4 text-xs text-slate-300">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse"></span> 7/24 AI resepsiyonist
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span> WhatsApp Business API sertifikalı
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="absolute inset-0 blur-3xl bg-gradient-to-br from-purple-500/30 via-pink-500/30 to-blue-500/30"></div>
+        <div class="relative glass rounded-3xl p-6 gradient-border overflow-hidden">
+          <div class="flex justify-between items-center mb-4">
+            <div class="text-sm text-slate-200">Omnichannel Unified Inbox</div>
+            <span class="px-3 py-1 text-xs rounded-full bg-cyan-500/20 text-cyan-200">Gerçek zamanlı</span>
+          </div>
+          <div class="grid-bg rounded-2xl border border-white/5 p-4 space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center text-lg">W</div>
+                <div>
+                  <p class="text-slate-50 font-semibold">WhatsApp</p>
+                  <p class="text-xs text-slate-400">Ayşe: "Randevu alabilir miyim?"</p>
+                </div>
+              </div>
+              <span class="text-xs text-emerald-300">AI yanıtladı</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-pink-500 to-purple-500 flex items-center justify-center text-lg">IG</div>
+                <div>
+                  <p class="text-slate-50 font-semibold">Instagram DM</p>
+                  <p class="text-xs text-slate-400">Yeni soru: Kampanya var mı?</p>
+                </div>
+              </div>
+              <span class="text-xs text-cyan-300">Atandı: Satış</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-lg">E</div>
+                <div>
+                  <p class="text-slate-50 font-semibold">E-posta</p>
+                  <p class="text-xs text-slate-400">Fatura talebi</p>
+                </div>
+              </div>
+              <span class="text-xs text-purple-200">Takip: 2 dk</span>
+            </div>
+          </div>
+          <div class="mt-4 p-4 rounded-2xl bg-slate-800/60 border border-white/5">
+            <p class="text-xs uppercase tracking-[0.25em] text-slate-400 mb-2">🔥 Müşteri Bulma</p>
+            <p class="text-sm text-slate-200">Google Maps'te "diyetisyen" arandı, 32 yeni lead bulundu. İlk mesaj otomatik gönderiliyor.</p>
+            <div class="mt-3 flex gap-2">
+              <span class="px-3 py-1 rounded-full text-xs bg-emerald-500/20 text-emerald-200">Yeni lead</span>
+              <span class="px-3 py-1 rounded-full text-xs bg-blue-500/20 text-blue-200">Otomasyon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="max-w-6xl mx-auto px-4 pb-16">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <p class="text-xs tracking-[0.25em] uppercase text-cyan-300">Özellikler</p>
+          <h2 class="text-3xl font-bold text-white">Omnichannel + AI + Otomasyon</h2>
+        </div>
+        <a class="text-sm text-slate-300 hover:text-white" href="#pricing">Fiyatlandırma &rarr;</a>
+      </div>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="glass rounded-2xl p-5 space-y-3 border border-white/5">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-lg">1</div>
+          <h3 class="text-lg font-semibold text-white">Omnichannel Inbox</h3>
+          <p class="text-sm text-slate-300">WhatsApp, Instagram, Facebook, Telegram, e-posta ve SMS tek ekran. Akıllı atama ve etiketleme.</p>
+        </div>
+        <div class="glass rounded-2xl p-5 space-y-3 border border-white/5">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-lg">2</div>
+          <h3 class="text-lg font-semibold text-white">AI-Powered Conversations</h3>
+          <p class="text-sm text-slate-300">GPT-4o ve Claude ile çok dilli otomatik yanıt, duygu analizi, 7/24 resepsiyonist.</p>
+        </div>
+        <div class="glass rounded-2xl p-5 space-y-3 border border-white/5">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-emerald-500 flex items-center justify-center text-lg">3</div>
+          <h3 class="text-lg font-semibold text-white">Otomasyon</h3>
+          <p class="text-sm text-slate-300">n8n tabanlı akışlar, tetikleyici/aksiyon, webhook ve API entegrasyonları.</p>
+        </div>
+        <div class="glass rounded-2xl p-5 space-y-3 border border-white/5">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-pink-500 to-orange-400 flex items-center justify-center text-lg">4</div>
+          <h3 class="text-lg font-semibold text-white">Rezervasyon & Takvim</h3>
+          <p class="text-sm text-slate-300">Google/Outlook sync, otomatik hatırlatma, sektöre özel booking sayfaları.</p>
+        </div>
+        <div class="glass rounded-2xl p-5 space-y-3 border border-white/5">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-lg">5</div>
+          <h3 class="text-lg font-semibold text-white">CRM & Pipeline</h3>
+          <p class="text-sm text-slate-300">Kanban satış hattı, kartlar, görevler, etiket ve segmentasyon. Detaylı aktivite geçmişi.</p>
+        </div>
+        <div class="glass rounded-2xl p-5 space-y-3 border border-white/5">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-yellow-400 to-pink-500 flex items-center justify-center text-lg">6</div>
+          <h3 class="text-lg font-semibold text-white">Analytics & Raporlama</h3>
+          <p class="text-sm text-slate-300">Gerçek zamanlı dashboard, kanal performansı, dönüşüm takibi, AI vs insan oranları.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-4 pb-16">
+      <div class="glass rounded-3xl p-8 border border-white/5 grid md:grid-cols-2 gap-6 items-center">
+        <div>
+          <p class="text-xs uppercase tracking-[0.25em] text-emerald-300">🔥 Benzersiz</p>
+          <h3 class="text-3xl font-bold text-white mb-3">Müşteri Bulma Motoru</h3>
+          <p class="text-slate-300 mb-4">Google Maps'ten potansiyel müşterileri toplar, sektöre göre zenginleştirir, soğuk mesajı otomatik gönderir. Rakipleriniz keşfetmeden önce siz iletişime geçin.</p>
+          <ul class="space-y-2 text-sm text-slate-200">
+            <li>• Sektör bazlı lead generation</li>
+            <li>• Otomatik ilk temas ve takip akışı</li>
+            <li>• CRM'e otomatik kaydetme ve etiketleme</li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <div class="glass rounded-2xl p-5 border border-emerald-300/20">
+            <div class="flex items-center justify-between mb-2">
+              <p class="text-sm text-slate-200">Lead Araması: "diyetisyen"</p>
+              <span class="text-xs text-emerald-200">32 sonuç</span>
+            </div>
+            <p class="text-sm text-slate-300">Lokasyon: İstanbul +25km | İlk temas otomasyonu aktif</p>
+          </div>
+          <div class="glass rounded-2xl p-5 border border-purple-300/20">
+            <p class="text-sm font-semibold text-white mb-1">Akış</p>
+            <p class="text-xs text-slate-300">1) Lead kaydı → 2) AI mesaj → 3) Yanıt yoksa 2. mesaj → 4) Pipeline'a aktar</p>
+            <div class="mt-3 flex gap-2 flex-wrap">
+              <span class="px-3 py-1 rounded-full bg-purple-500/20 text-purple-100 text-xs">No-code</span>
+              <span class="px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-100 text-xs">Çok dilli</span>
+              <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-100 text-xs">KVKK uyumlu</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sectors" class="max-w-6xl mx-auto px-4 pb-16">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <p class="text-xs uppercase tracking-[0.25em] text-cyan-300">Sektörler</p>
+          <h3 class="text-3xl font-bold text-white">22+ sektöre hazır şablonlar</h3>
+        </div>
+        <a class="text-sm text-slate-300 hover:text-white" href="#contact">Sektörüne özel demo &rarr;</a>
+      </div>
+      <div class="grid gap-4 md:grid-cols-3">
+        <div class="glass rounded-2xl p-4 border border-white/5">
+          <p class="text-lg font-semibold text-white">Oteller & Konaklama</p>
+          <p class="text-sm text-slate-300">Çok dilli resepsiyonist, rezervasyon otomasyonu, upsell kampanyaları.</p>
+        </div>
+        <div class="glass rounded-2xl p-4 border border-white/5">
+          <p class="text-lg font-semibold text-white">Klinikler</p>
+          <p class="text-sm text-slate-300">Randevu hatırlatmaları, KVKK uyumlu kayıt, takip akışları.</p>
+        </div>
+        <div class="glass rounded-2xl p-4 border border-white/5">
+          <p class="text-lg font-semibold text-white">E-ticaret</p>
+          <p class="text-sm text-slate-300">Sepet kurtarma, kargo durumu otomasyonu, kampanya DM'leri.</p>
+        </div>
+        <div class="glass rounded-2xl p-4 border border-white/5">
+          <p class="text-lg font-semibold text-white">Emlak Ofisleri</p>
+          <p class="text-sm text-slate-300">Lead yakalama, otomatik randevu, portföy paylaşma.</p>
+        </div>
+        <div class="glass rounded-2xl p-4 border border-white/5">
+          <p class="text-lg font-semibold text-white">Güzellik Salonları</p>
+          <p class="text-sm text-slate-300">Süreç şablonları, kampanya mesajları, sadakat otomasyonu.</p>
+        </div>
+        <div class="glass rounded-2xl p-4 border border-white/5">
+          <p class="text-lg font-semibold text-white">Spor Salonları</p>
+          <p class="text-sm text-slate-300">Deneme üyelikleri, yenileme hatırlatmaları, toplu mesajlar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="max-w-6xl mx-auto px-4 pb-16">
+      <div class="text-center mb-10">
+        <p class="text-xs uppercase tracking-[0.25em] text-cyan-300">Fiyatlandırma</p>
+        <h3 class="text-3xl font-bold text-white mb-3">14 gün ücretsiz dene, kart gerekmez</h3>
+        <p class="text-slate-300">TRY fiyatlandırma, aylık/yıllık toggle ve yerel ödeme yöntemleri.</p>
+      </div>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="glass rounded-2xl p-6 border border-white/10 flex flex-col">
+          <h4 class="text-xl font-semibold text-white mb-2">Starter</h4>
+          <p class="text-3xl font-bold text-white">₺999<span class="text-sm text-slate-400">/ay</span></p>
+          <p class="text-sm text-slate-300 mb-4">1000 mesaj, 500 kişi, 1 kanal, 2 kullanıcı</p>
+          <ul class="text-sm text-slate-200 space-y-2 mb-6">
+            <li>• Web chat widget</li>
+            <li>• Temel otomasyon</li>
+            <li>• Email + WhatsApp</li>
+          </ul>
+          <button class="mt-auto px-4 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold">Başlat</button>
+        </div>
+        <div class="glass rounded-2xl p-6 border border-pink-400/40 flex flex-col relative overflow-hidden">
+          <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-pink-500 text-xs font-semibold text-white">En Popüler</span>
+          <h4 class="text-xl font-semibold text-white mb-2">Pro</h4>
+          <p class="text-3xl font-bold text-white">₺2.999<span class="text-sm text-slate-400">/ay</span></p>
+          <p class="text-sm text-slate-300 mb-4">10K mesaj, 5K kişi, 5 kanal, 10 kullanıcı + AI</p>
+          <ul class="text-sm text-slate-200 space-y-2 mb-6">
+            <li>• GPT-4o & Claude destekli yanıtlar</li>
+            <li>• AI destekli otomasyon</li>
+            <li>• Çoklu kanal + CRM</li>
+          </ul>
+          <button class="mt-auto px-4 py-3 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white font-semibold shadow-lg">Ücretsiz Dene</button>
+        </div>
+        <div class="glass rounded-2xl p-6 border border-white/10 flex flex-col">
+          <h4 class="text-xl font-semibold text-white mb-2">Enterprise</h4>
+          <p class="text-3xl font-bold text-white">₺9.999+<span class="text-sm text-slate-400">/ay</span></p>
+          <p class="text-sm text-slate-300 mb-4">Sınırsız, white-label, özel destek</p>
+          <ul class="text-sm text-slate-200 space-y-2 mb-6">
+            <li>• SLA & özel müşteri başarı</li>
+            <li>• İYS ve KVKK danışmanlığı</li>
+            <li>• Özel entegrasyonlar</li>
+          </ul>
+          <button class="mt-auto px-4 py-3 rounded-full border border-white/20 text-white font-semibold hover:border-white/40">Satışla Görüş</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-4 pb-16 grid md:grid-cols-2 gap-10">
+      <div class="glass rounded-3xl p-8 border border-white/5">
+        <p class="text-xs uppercase tracking-[0.25em] text-cyan-300">Nasıl Çalışır</p>
+        <h3 class="text-3xl font-bold text-white mb-4">3 adımda yayında</h3>
+        <ol class="space-y-4 text-slate-200 text-sm">
+          <li><span class="font-semibold">1) Bağlan:</span> WhatsApp, Instagram, Facebook, e-posta ve web chat'i ekle.</li>
+          <li><span class="font-semibold">2) Otomatize et:</span> Hazır akış şablonlarını seç, AI yanıtlarını aç.</li>
+          <li><span class="font-semibold">3) Lead topla:</span> "Müşteri Bulma" motorunu çalıştır, CRM ve pipeline'a aktar.</li>
+        </ol>
+      </div>
+      <div class="glass rounded-3xl p-8 border border-white/5">
+        <p class="text-xs uppercase tracking-[0.25em] text-cyan-300">Müşteri Yorumları</p>
+        <h3 class="text-3xl font-bold text-white mb-4">Güven veren sonuçlar</h3>
+        <div class="space-y-4 text-slate-200 text-sm">
+          <p>"DOLU.ai ile WhatsApp + Instagram DM yoğunluğunu %60 azalttık, AI resepsiyonist randevuları otomatik alıyor." – <span class="text-white font-semibold">Ada Klinik</span></p>
+          <p>"Lead motoru sayesinde 2 haftada 120 yeni potansiyel müşteri topladık, satış pipeline'ı doldu." – <span class="text-white font-semibold">Hera Emlak</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-4 pb-16 grid md:grid-cols-3 gap-6" id="faq">
+      <div class="md:col-span-1">
+        <p class="text-xs uppercase tracking-[0.25em] text-cyan-300">SSS</p>
+        <h3 class="text-3xl font-bold text-white">Sık sorulan sorular</h3>
+        <p class="text-sm text-slate-300 mt-2">14 gün ücretsiz dene, herhangi bir taahhüt yok.</p>
+      </div>
+      <div class="md:col-span-2 space-y-3">
+        <details class="glass rounded-2xl p-4 border border-white/5">
+          <summary class="font-semibold text-white cursor-pointer">Kurulum ne kadar sürüyor?</summary>
+          <p class="mt-2 text-sm text-slate-300">Dakikalar içinde WhatsApp, Instagram ve e-postayı bağlayıp hazır akışları açabilirsiniz.</p>
+        </details>
+        <details class="glass rounded-2xl p-4 border border-white/5">
+          <summary class="font-semibold text-white cursor-pointer">KVKK ve İYS uyumlu mu?</summary>
+          <p class="mt-2 text-sm text-slate-300">Tüm iletişimler KVKK standartlarında, İYS entegrasyonu ve loglama hazır gelir.</p>
+        </details>
+        <details class="glass rounded-2xl p-4 border border-white/5">
+          <summary class="font-semibold text-white cursor-pointer">AI yanıtları özelleştirilebilir mi?</summary>
+          <p class="mt-2 text-sm text-slate-300">Evet, marka tonunu, dilini ve sektör-specific senaryoları akışta düzenleyebilirsiniz.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact" class="max-w-6xl mx-auto px-4 pb-16">
+      <div class="glass rounded-3xl p-8 border border-white/5 grid md:grid-cols-2 gap-6 items-center">
+        <div>
+          <p class="text-xs uppercase tracking-[0.25em] text-cyan-300">Demo Talep</p>
+          <h3 class="text-3xl font-bold text-white mb-3">Sektörüne özel demo al</h3>
+          <p class="text-slate-300 text-sm">Kısa formu doldur, 24 saat içinde uzman ekibimiz dönüş yapsın. TR/EN/AR dillerinde destek.</p>
+        </div>
+        <form class="space-y-3">
+          <input class="w-full px-4 py-3 rounded-2xl bg-slate-800/60 border border-white/10 text-white text-sm" placeholder="Ad Soyad" />
+          <input class="w-full px-4 py-3 rounded-2xl bg-slate-800/60 border border-white/10 text-white text-sm" placeholder="İş e-postası" />
+          <input class="w-full px-4 py-3 rounded-2xl bg-slate-800/60 border border-white/10 text-white text-sm" placeholder="Sektör" />
+          <textarea class="w-full px-4 py-3 rounded-2xl bg-slate-800/60 border border-white/10 text-white text-sm" rows="3" placeholder="İhtiyacınız"></textarea>
+          <button type="button" class="w-full px-4 py-3 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white font-semibold">Gönder</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/5 bg-slate-950/60">
+    <div class="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-6 text-sm text-slate-300">
+      <div>
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 flex items-center justify-center font-bold text-lg">d</div>
+          <div>
+            <p class="text-white font-semibold">DOLU.ai</p>
+            <p class="text-xs text-slate-400">Müşteri bulma + omnichannel CRM</p>
+          </div>
+        </div>
+        <p>TR / EN / AR • PWA • RTL hazır</p>
+      </div>
+      <div class="space-y-2">
+        <p class="text-white font-semibold">Şirket</p>
+        <a class="block hover:text-white" href="#">Hakkımızda</a>
+        <a class="block hover:text-white" href="#">Blog</a>
+        <a class="block hover:text-white" href="#">Gizlilik & KVKK</a>
+      </div>
+      <div class="space-y-2">
+        <p class="text-white font-semibold">Destek</p>
+        <a class="block hover:text-white" href="#faq">SSS</a>
+        <a class="block hover:text-white" href="#contact">İletişim</a>
+        <a class="block hover:text-white" href="#">Durum sayfası</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
